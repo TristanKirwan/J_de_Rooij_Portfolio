@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jelle de Rooij</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">    
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="./scripts/main.js"></script>    
+</head>
+<body>
+    <div class="background"></div>
+    <div class="navbar" id="mynavbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">Over mij</a>
+        <a href="work.html">Mijn werk</a>
+        <a href="Contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+    </div>
+    
+    <!-- Dit klopt niet helemaal, ik moet even vragen op stack overflow wat een goede oplossing zou zijn. -->
+    <h2 class="hidedesktop" id="competentiestitel">Mijn competenties</h2>
+    <div class="competenties">
+        <div class="compontwerp"><i class="fas fa-brain fa-fw"></i></div>
+        <div class="compontwerptekst hidedesktop"><p>Ontwerpen</p></div>
+        <div class="compontwerktekst hidemobile">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </div>
+        
+        <div class="compuitwerk"><i class="fas fa-pencil-ruler fa-fw"></i></div>
+        <div class="compuitwerktekst hidedesktop"><p>Uitwerken</p></div>
+        <div class="compuitwerktekst hidemobile">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </div>
+        
+        <div class="comppresent"><i class="fas fa-comment fa-fw"></i></div>
+        <div class="comppresenttekst hidedesktop"><p>Presenteren</p></div>
+        <div class="comppresenttekst hidemobile">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </div>
+    </div>
+    <div class="wrapper wrapper-work">
+            <i class="far fa-arrow-alt-circle-up" onclick="topFunction()" id="myBtn" title="Go to top"></i>
+        <!-- Een ander idee is om carousel te maken van de items maar dat is misschien meer iets voor later !-->
+        <div class="projects">
+                <div class="project1title"><h2>BIM Ontwerpen</h2></div>
+                <hr>
+                <div class="project1img"><img src="./imgs/BIM.jpg" alt="BIM ontwerp"></div>
+                <div class="project1content"><p>Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p></div>
+
+                <div class="project2title"><h2>Bouwkundige tekeningen</h2></div>
+                <hr>
+                <div class="project2img"><img src="./imgs/BIM.jpg" alt="BIM ontwerp"></div>
+                <div class="project2content"><p>Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p></div>
+
+                <div class="project3title"><h2>Detail tekeningen</h2></div>
+                <hr>
+                <div class="project3img"><img src="./imgs/BIM.jpg" alt="BIM ontwerp"></div>  
+                <div class="project3content"><p>Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p></div>
+                
+                <div class="project4title"><h2>Plafond- indelingen</h2></div>
+                <hr>
+                <div class="project4img"><img src="./imgs/BIM.jpg" alt="BIM ontwerp"></div>
+                <div class="project4content"><p>Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p></div>
+        </div>
+        <div class="CTA">
+            <a href="Contact.html">Zoek contact</a>
+        </div>
+    </div>
+</body>
+</html>
